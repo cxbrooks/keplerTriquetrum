@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.kepler.triquetrum.ddpcommon.feature"
-      label="Feature"
+      id="org.kepler.triquetrum.ddp.feature"
+      label="KeplerDDP"
       version="1.0.0.qualifier">
 
    <requires>

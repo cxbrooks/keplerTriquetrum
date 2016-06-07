@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.kepler.triquetrum.ddpcommon.feature_1.0.0.201606071104.jar" id="org.kepler.triquetrum.ddpcommon.feature" version="1.0.0.201606071104"/>
+   <feature url="features/org.kepler.triquetrum.ddp.feature_1.0.0.201606071104.jar" id="org.kepler.triquetrum.ddpcommon.feature" version="1.0.0.201606071104"/>
+   <feature url="features/org.kepler.triquetrum.ddp.feature_1.0.0.201606071332.jar" id="org.kepler.triquetrum.ddp.feature" version="1.0.0.201606071332"/>
 </site>
