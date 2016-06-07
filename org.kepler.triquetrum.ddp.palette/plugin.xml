@@ -8,7 +8,7 @@
 	     <entry 
 	            class="org.kepler.ddp.actor.ExecutionChoice"
 	            displayName="ExecutionChoice"
-	            icon="icons/plot.png"
+	            icon="icons/ExecutionChoice.png"
 	            type="Actor">
 	    </entry>
 	  </group>
