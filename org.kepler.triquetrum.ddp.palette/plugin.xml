@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension 
+	     name="Triquetrum palette ExecutionChoice extension"
+	     point="org.eclipse.triquetrum.workflow.editor.paletteContribution">
+	  <group displayName="Kepler">
+	     <entry 
+	            class="org.kepler.ddp.actor.ExecutionChoice"
+	            displayName="ExecutionChoice"
+	            icon="icons/plot.png"
+	            type="Actor">
+	    </entry>
+	  </group>
+	</extension>
+</plugin>

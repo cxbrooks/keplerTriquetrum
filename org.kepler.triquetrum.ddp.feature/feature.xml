@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.kepler.triquetrum.ddpcommon.feature"
+      label="Feature"
+      version="1.0.0.qualifier">
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.apache.commons.io"/>
+      <import plugin="org.apache.commons.logging"/>
+      <import plugin="org.ptolemy.commons"/>
+      <import plugin="ptolemy.gui"/>
+      <import plugin="ptolemy.core"/>
+      <import plugin="ptolemy.moml"/>
+      <import plugin="ptolemy.domains.sdf"/>
+      <import plugin="org.eclipse.triquetrum.workflow.editor" version="1.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.kepler.triquetrum.ddp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.kepler.triquetrum.ddp.palette"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>

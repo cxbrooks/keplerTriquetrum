@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/configuration-manager"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/provenance"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/reporting"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/display-redirect"/>
+	<classpathentry kind="lib" path="/Users/cxh/src/kepler/build-area/target/kepler-tasks.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ddp-common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/hadoop"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.triquetrum.common"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

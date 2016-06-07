@@ -1,0 +1,1415 @@
+# 6/6/16 4:41:11 PM PDT
+# Eclipse Compiler for Java(TM) v20160128-0629, 3.11.2, Copyright IBM Corp 2000, 2015. All rights reserved.
+----------
+1. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 42)
+	import org.kepler.configuration.ConfigurationManager;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.configuration cannot be resolved
+----------
+2. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 43)
+	import org.kepler.configuration.ConfigurationProperty;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.configuration cannot be resolved
+----------
+3. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 46)
+	import org.kepler.provenance.ProvenanceRecorder;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.provenance cannot be resolved
+----------
+4. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 47)
+	import org.kepler.reporting.ReportingListener;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.reporting cannot be resolved
+----------
+5. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 49)
+	import au.edu.jcu.kepler.hydrant.DisplayRedirectFilter;
+	       ^^
+The import au cannot be resolved
+----------
+6. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 227)
+	MoMLParser.addMoMLFilter(new DisplayRedirectFilter(displayPath), workspace);
+	                             ^^^^^^^^^^^^^^^^^^^^^
+DisplayRedirectFilter cannot be resolved to a type
+----------
+7. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 280)
+	final List<Attribute> toRemove = new LinkedList<Attribute>(
+                    model.attributeList(ProvenanceRecorder.class));
+	                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The constructor LinkedList<Attribute>(model.attributeList(ProvenanceRecorder.class)) is undefined
+----------
+8. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 281)
+	model.attributeList(ProvenanceRecorder.class));
+	                    ^^^^^^^^^^^^^^^^^^
+ProvenanceRecorder cannot be resolved to a type
+----------
+9. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 282)
+	toRemove.addAll(model.attributeList(ReportingListener.class));
+	         ^^^^^^
+The method addAll(Collection<? extends Attribute>) in the type List<Attribute> is not applicable for the arguments (model.attributeList(ReportingListener.class))
+----------
+10. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 282)
+	toRemove.addAll(model.attributeList(ReportingListener.class));
+	                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type mismatch: cannot convert from List<ReportingListener> to Collection<? extends Attribute>
+----------
+11. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 282)
+	toRemove.addAll(model.attributeList(ReportingListener.class));
+	                                    ^^^^^^^^^^^^^^^^^
+ReportingListener cannot be resolved to a type
+----------
+12. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 301)
+	final List<?> ports = new LinkedList<Object>(model.portList());
+	                                             ^^^^^^^^^^^^^^^^
+Type safety: The expression of type List needs unchecked conversion to conform to Collection<? extends Object>
+----------
+13. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 332)
+	final List<?> connectedRelations = new LinkedList<Object>(port.insideRelationList());            
+	                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type List needs unchecked conversion to conform to Collection<? extends Object>
+----------
+14. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 431)
+	public static ConfigurationProperty getEngineProperty(String engineName,
+	              ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+15. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 434)
+	List<ConfigurationProperty> engineProperties = ConfigurationManager
+	     ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+16. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 434)
+	List<ConfigurationProperty> engineProperties = ConfigurationManager
+	                                               ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+17. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 436)
+	.getProperty(ConfigurationManager.getModule("ddp-common"))
+	             ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+18. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 443)
+	for(ConfigurationProperty engineProperty : engineProperties) {
+	    ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+19. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 444)
+	ConfigurationProperty nameProperty = engineProperty.getProperty("Name");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+20. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 466)
+	final List<ConfigurationProperty> languageList = ConfigurationManager
+	           ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+21. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 466)
+	final List<ConfigurationProperty> languageList = ConfigurationManager
+	                                                 ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+22. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 468)
+	.getProperty(ConfigurationManager.getModule("ddp-common"))
+	             ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+23. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 471)
+	for(ConfigurationProperty property : languageList) {
+	    ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+24. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 472)
+	ConfigurationProperty nameProperty = property.getProperty("Name");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+25. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 488)
+	final List<ConfigurationProperty> languageList = ConfigurationManager
+	           ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+26. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 488)
+	final List<ConfigurationProperty> languageList = ConfigurationManager
+	                                                 ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+27. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 490)
+	.getProperty(ConfigurationManager.getModule("ddp-common"))
+	             ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+28. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 493)
+	for(ConfigurationProperty property : languageList) {
+	    ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+29. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 494)
+	ConfigurationProperty nameProperty = property.getProperty("Name");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+30. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 500)
+	ConfigurationProperty jarsProperty = property.getProperty("Jars");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+31. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 520)
+	final List<ConfigurationProperty> languageList = ConfigurationManager
+	           ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+32. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 520)
+	final List<ConfigurationProperty> languageList = ConfigurationManager
+	                                                 ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+33. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 522)
+	.getProperty(ConfigurationManager.getModule("ddp-common"))
+	             ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+34. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 525)
+	for(ConfigurationProperty property : languageList) {
+	    ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+35. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 526)
+	ConfigurationProperty nameProperty = property.getProperty("Name");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+36. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 532)
+	ConfigurationProperty typeProperty = property.getProperty("Type");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+37. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 539)
+	ConfigurationProperty scriptEngineNameProperty = property.getProperty("ScriptEngineName");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+38. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 558)
+	final List<ConfigurationProperty> languageList = ConfigurationManager
+	           ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+39. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 558)
+	final List<ConfigurationProperty> languageList = ConfigurationManager
+	                                                 ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+40. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 560)
+	.getProperty(ConfigurationManager.getModule("ddp-common"))
+	             ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+41. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 563)
+	for(ConfigurationProperty property : languageList) {
+	    ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+42. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 564)
+	ConfigurationProperty nameProperty = property.getProperty("Name");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+43. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 570)
+	ConfigurationProperty typeProperty = property.getProperty("Type");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+44. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/Utilities.java (at line 577)
+	ConfigurationProperty scriptEngineFactoryNameProperty =
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+----------
+45. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 49)
+	import org.kepler.build.modules.Module;
+	       ^^^^^^^^^^^^^^^^
+The import org.kepler.build cannot be resolved
+----------
+46. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 50)
+	import org.kepler.build.modules.ModuleTree;
+	       ^^^^^^^^^^^^^^^^
+The import org.kepler.build cannot be resolved
+----------
+47. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 53)
+	import org.kepler.provenance.ProvenanceRecorder;
+	       ^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.provenance cannot be resolved
+----------
+48. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 54)
+	import org.kepler.reporting.ReportingListener;
+	       ^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.reporting cannot be resolved
+----------
+49. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 224)
+	for(Port port : (List<Port>)portList()) {
+	                ^^^^^^^^^^^^^^^^^^^^^^
+Type safety: Unchecked cast from List to List<Port>
+----------
+50. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 609)
+	for(Port port : (List<Port>)exportedContainer.portList()) {
+	                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: Unchecked cast from List to List<Port>
+----------
+51. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 719)
+	List<Attribute> toRemove = new LinkedList<Attribute>(
+        		newRefinement.attributeList(ProvenanceRecorder.class));
+	                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The constructor LinkedList<Attribute>(newRefinement.attributeList(ProvenanceRecorder.class)) is undefined
+----------
+52. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 720)
+	newRefinement.attributeList(ProvenanceRecorder.class));
+	                            ^^^^^^^^^^^^^^^^^^
+ProvenanceRecorder cannot be resolved to a type
+----------
+53. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 721)
+	toRemove.addAll(newRefinement.attributeList(ReportingListener.class));
+	         ^^^^^^
+The method addAll(Collection<? extends Attribute>) in the type List<Attribute> is not applicable for the arguments (newRefinement.attributeList(ReportingListener.class))
+----------
+54. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 721)
+	toRemove.addAll(newRefinement.attributeList(ReportingListener.class));
+	                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type mismatch: cannot convert from List<ReportingListener> to Collection<? extends Attribute>
+----------
+55. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 721)
+	toRemove.addAll(newRefinement.attributeList(ReportingListener.class));
+	                                            ^^^^^^^^^^^^^^^^^
+ReportingListener cannot be resolved to a type
+----------
+56. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 1511)
+	ModuleTree tree = ModuleTree.instance();
+	^^^^^^^^^^
+ModuleTree cannot be resolved to a type
+----------
+57. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 1511)
+	ModuleTree tree = ModuleTree.instance();
+	                  ^^^^^^^^^^
+ModuleTree cannot be resolved
+----------
+58. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 1512)
+	Module module = tree.getModuleByStemName("ddp-common");
+	^^^^^^
+Module cannot be resolved to a type
+----------
+59. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 1955)
+	List<IOPort> insidePorts = port.insidePortList();
+	                           ^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type List needs unchecked conversion to conform to List<IOPort>
+----------
+60. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoice.java (at line 2034)
+	portsToMirror.addAll(refinement.portList());
+	                     ^^^^^^^^^^^^^^^^^^^^^
+Type safety: The expression of type List needs unchecked conversion to conform to Collection<? extends Port>
+----------
+----------
+61. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoiceDirector.java (at line 149)
+	for (IOPort port : (List<IOPort>)choice.inputPortList()) {
+	                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: Unchecked cast from List to List<IOPort>
+----------
+62. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoiceDirector.java (at line 163)
+	} else if(choice.getPortIOType(port) == ExecutionChoice.IOType.File){
+	          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static method getPortIOType(Port) from the type ExecutionChoice should be accessed in a static way
+----------
+63. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/ExecutionChoiceDirector.java (at line 297)
+	} else if(((ExecutionChoice) port.getContainer()).getPortIOType(port) == ExecutionChoice.IOType.File) {
+	          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static method getPortIOType(Port) from the type ExecutionChoice should be accessed in a static way
+----------
+----------
+64. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 38)
+	import org.kepler.build.modules.Module;
+	       ^^^^^^^^^^^^^^^^
+The import org.kepler.build cannot be resolved
+----------
+65. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 39)
+	import org.kepler.configuration.ConfigurationManager;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.configuration cannot be resolved
+----------
+66. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 40)
+	import org.kepler.configuration.ConfigurationProperty;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.configuration cannot be resolved
+----------
+67. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 41)
+	import org.kepler.configuration.ConfigurationUtilities;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.configuration cannot be resolved
+----------
+68. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 111)
+	newObject._formatProperty = null;
+	^^^^^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+69. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 112)
+	newObject._formatProperties = null;
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^
+List<ConfigurationProperty> cannot be resolved to a type
+----------
+70. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 155)
+	final ConfigurationProperty formatProperty = _getFormatProperty(engineName);
+	      ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+71. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 155)
+	final ConfigurationProperty formatProperty = _getFormatProperty(engineName);
+	                                             ^^^^^^^^^^^^^^^^^^
+The method _getFormatProperty(String) from the type AtomicPatternActor refers to the missing type ConfigurationProperty
+----------
+72. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 233)
+	List<ConfigurationProperty> parameterPairs = null;
+	     ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+73. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 234)
+	if (_formatProperty != null)
+	    ^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+74. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 235)
+	parameterPairs = _formatProperty.getProperties("Parameters.pair");
+	                 ^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+75. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 237)
+	ConfigurationProperty nameInEngine;
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+76. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 238)
+	for (ConfigurationProperty parameterPair: parameterPairs) {
+	     ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+77. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 259)
+	_formatProperty = _getFormatProperty(((DDPDirector) director)
+	^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+78. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 259)
+	_formatProperty = _getFormatProperty(((DDPDirector) director)
+	                  ^^^^^^^^^^^^^^^^^^
+The method _getFormatProperty(String) from the type AtomicPatternActor refers to the missing type ConfigurationProperty
+----------
+79. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 262)
+	_setTypesFromConfiguration(_formatProperty);
+	                           ^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+80. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 298)
+	final ConfigurationManager manager = ConfigurationManager.getInstance();
+	      ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved to a type
+----------
+81. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 298)
+	final ConfigurationManager manager = ConfigurationManager.getInstance();
+	                                     ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+82. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 299)
+	final Module module = ConfigurationManager.getModule("ddp-common");
+	      ^^^^^^
+Module cannot be resolved to a type
+----------
+83. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 299)
+	final Module module = ConfigurationManager.getModule("ddp-common");
+	                      ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+84. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 300)
+	final ConfigurationProperty propertyRoot = manager.getProperty(module);
+	      ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+85. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 301)
+	_formatProperties = propertyRoot.getProperties(inputOutputName
+	^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+86. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 306)
+	for (ConfigurationProperty formatProperty : _formatProperties) {
+	     ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+87. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 306)
+	for (ConfigurationProperty formatProperty : _formatProperties) {
+	                                            ^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+88. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 307)
+	ConfigurationProperty nameProperty = formatProperty.getProperty("Name");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+89. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 340)
+	final ConfigurationProperty formatProperty = _getFormatProperty(null);
+	      ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+90. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 340)
+	final ConfigurationProperty formatProperty = _getFormatProperty(null);
+	                                             ^^^^^^^^^^^^^^^^^^
+The method _getFormatProperty(String) from the type AtomicPatternActor refers to the missing type ConfigurationProperty
+----------
+91. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 347)
+	final ConfigurationProperty parametersProperty = 
+	      ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+92. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 351)
+	associatedParameterPairs = ConfigurationUtilities
+	                           ^^^^^^^^^^^^^^^^^^^^^^
+ConfigurationUtilities cannot be resolved
+----------
+93. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 437)
+	protected void _setTypesFromConfiguration(ConfigurationProperty formatProperty)
+	                                          ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+94. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 441)
+	final ConfigurationProperty typesProperty = formatProperty
+	      ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+95. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 451)
+	final ConfigurationProperty keyProperty = typesProperty
+	      ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+96. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 470)
+	final ConfigurationProperty valueProperty = typesProperty
+	      ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+97. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 511)
+	protected List<ConfigurationProperty> _formatProperties;
+	               ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+98. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 525)
+	private ConfigurationProperty _getFormatProperty(String engineName)
+	        ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+99. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 535)
+	final List<ConfigurationProperty> formatList = ConfigurationManager
+	           ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+100. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 535)
+	final List<ConfigurationProperty> formatList = ConfigurationManager
+	                                               ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+101. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 537)
+	.getProperty(ConfigurationManager.getModule("ddp-common"))
+	             ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+102. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 546)
+	for (ConfigurationProperty format : formatList) {
+	     ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+103. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 547)
+	ConfigurationProperty nameProperty = format.getProperty("Name");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+104. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/AtomicPatternActor.java (at line 575)
+	private ConfigurationProperty _formatProperty;
+	        ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+----------
+105. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 38)
+	import org.apache.hadoop.conf.Configuration;
+	       ^^^^^^^^^^^^^^^^^
+The import org.apache.hadoop cannot be resolved
+----------
+106. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 39)
+	import org.apache.hadoop.fs.FileSystem;
+	       ^^^^^^^^^^^^^^^^^
+The import org.apache.hadoop cannot be resolved
+----------
+107. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 40)
+	import org.apache.hadoop.fs.FileUtil;
+	       ^^^^^^^^^^^^^^^^^
+The import org.apache.hadoop cannot be resolved
+----------
+108. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 41)
+	import org.apache.hadoop.fs.Path;
+	       ^^^^^^^^^^^^^^^^^
+The import org.apache.hadoop cannot be resolved
+----------
+109. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 42)
+	import org.kepler.configuration.ConfigurationProperty;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.configuration cannot be resolved
+----------
+110. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 212)
+	protected void _setTypesFromConfiguration(ConfigurationProperty formatProperty)
+	                                          ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+111. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 258)
+	Configuration configuration = new Configuration();
+	^^^^^^^^^^^^^
+Configuration cannot be resolved to a type
+----------
+112. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 258)
+	Configuration configuration = new Configuration();
+	                                  ^^^^^^^^^^^^^
+Configuration cannot be resolved to a type
+----------
+113. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 260)
+	Path srcPath = new Path(pathStr);
+	^^^^
+Path cannot be resolved to a type
+----------
+114. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 260)
+	Path srcPath = new Path(pathStr);
+	                   ^^^^
+Path cannot be resolved to a type
+----------
+115. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 263)
+	FileSystem srcPathFileSystem = srcPath.getFileSystem(configuration);
+	^^^^^^^^^^
+FileSystem cannot be resolved to a type
+----------
+116. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 267)
+	Path destPath = new Path(pathStr + "-TMP1234");        
+	^^^^
+Path cannot be resolved to a type
+----------
+117. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 267)
+	Path destPath = new Path(pathStr + "-TMP1234");        
+	                    ^^^^
+Path cannot be resolved to a type
+----------
+118. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSink.java (at line 272)
+	if(!FileUtil.copyMerge(srcPath.getFileSystem(configuration), srcPath,
+	    ^^^^^^^^
+FileUtil cannot be resolved
+----------
+----------
+119. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSource.java (at line 39)
+	import org.kepler.configuration.ConfigurationProperty;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.configuration cannot be resolved
+----------
+120. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPDataSource.java (at line 253)
+	protected void _setTypesFromConfiguration(ConfigurationProperty formatProperty)
+	                                          ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+----------
+121. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/actor/pattern/DDPPatternActor.java (at line 50)
+	public List portList();
+	       ^^^^
+List is a raw type. References to generic type List<E> should be parameterized
+----------
+----------
+122. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 35)
+	import org.kepler.configuration.ConfigurationManager;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.configuration cannot be resolved
+----------
+123. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 36)
+	import org.kepler.configuration.ConfigurationProperty;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.configuration cannot be resolved
+----------
+124. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 309)
+	List<ConfigurationProperty> engineProperties = ConfigurationManager
+	     ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+125. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 309)
+	List<ConfigurationProperty> engineProperties = ConfigurationManager
+	                                               ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+126. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 311)
+	.getProperty(ConfigurationManager.getModule("ddp-common"))
+	             ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+127. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 320)
+	for(ConfigurationProperty engineProperty : engineProperties) {
+	    ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+128. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 321)
+	ConfigurationProperty nameProperty = engineProperty.getProperty("Name");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+129. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 329)
+	ConfigurationProperty classProperty = engineProperty.getProperty("ImplementationClass");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+130. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 438)
+	ConfigurationProperty defaultProperty = ConfigurationManager
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+131. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 438)
+	ConfigurationProperty defaultProperty = ConfigurationManager
+	                                        ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+132. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 440)
+	.getProperty(ConfigurationManager.getModule("ddp-common"))
+	             ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+133. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 457)
+	List<ConfigurationProperty> engineProperties = ConfigurationManager
+	     ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+134. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 457)
+	List<ConfigurationProperty> engineProperties = ConfigurationManager
+	                                               ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+135. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 459)
+	.getProperty(ConfigurationManager.getModule("ddp-common"))
+	             ^^^^^^^^^^^^^^^^^^^^
+ConfigurationManager cannot be resolved
+----------
+136. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 467)
+	for(ConfigurationProperty engineProperty : engineProperties) {
+	    ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+137. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPDirector.java (at line 468)
+	ConfigurationProperty nameProperty = engineProperty.getProperty("Name");
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+----------
+138. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 52)
+	import org.kepler.build.modules.Module;
+	       ^^^^^^^^^^^^^^^^
+The import org.kepler.build cannot be resolved
+----------
+139. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 53)
+	import org.kepler.build.modules.ModuleTree;
+	       ^^^^^^^^^^^^^^^^
+The import org.kepler.build cannot be resolved
+----------
+140. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 54)
+	import org.kepler.configuration.ConfigurationProperty;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.configuration cannot be resolved
+----------
+141. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 60)
+	import org.kepler.sms.SemanticType;
+	       ^^^^^^^^^^^^^^
+The import org.kepler.sms cannot be resolved
+----------
+142. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 360)
+	ConfigurationProperty engineProperty = Utilities.getEngineProperty(_engineName, _director);
+	^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+143. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 360)
+	ConfigurationProperty engineProperty = Utilities.getEngineProperty(_engineName, _director);
+	                                                 ^^^^^^^^^^^^^^^^^
+The method getEngineProperty(String, Nameable) from the type Utilities refers to the missing type ConfigurationProperty
+----------
+144. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 362)
+	List<ConfigurationProperty> requiredProperties = 
+	     ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+145. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 367)
+	for(ConfigurationProperty fileProperty : requiredProperties) {
+	    ^^^^^^^^^^^^^^^^^^^^^
+ConfigurationProperty cannot be resolved to a type
+----------
+146. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 672)
+	if(name.startsWith("_") || (parameter instanceof SemanticType)) {
+	                                                 ^^^^^^^^^^^^
+SemanticType cannot be resolved to a type
+----------
+147. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 714)
+	final ModuleTree moduleTree = ModuleTree.instance();
+	      ^^^^^^^^^^
+ModuleTree cannot be resolved to a type
+----------
+148. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 714)
+	final ModuleTree moduleTree = ModuleTree.instance();
+	                              ^^^^^^^^^^
+ModuleTree cannot be resolved
+----------
+149. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/director/DDPEngine.java (at line 715)
+	for(Module module : moduleTree) {
+	    ^^^^^^
+Module cannot be resolved to a type
+----------
+----------
+150. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/gui/ExecutionChoiceEditorPane.java (at line 64)
+	public class ExecutionChoiceEditorPane extends JPanel {
+	             ^^^^^^^^^^^^^^^^^^^^^^^^^
+The serializable class ExecutionChoiceEditorPane does not declare a static final serialVersionUID field of type long
+----------
+151. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/ddp/gui/ExecutionChoiceEditorPane.java (at line 267)
+	String argument = choice.getArgument(refinement, parameterName);
+	                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The static method getArgument(NamedObj, String) from the type ExecutionChoice should be accessed in a static way
+----------
+----------
+152. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/module/ddpcommon/Initialize.java (at line 32)
+	import org.kepler.configuration.ConfigurationUtilities;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.configuration cannot be resolved
+----------
+153. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/module/ddpcommon/Initialize.java (at line 33)
+	import org.kepler.module.ModuleInitializer;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.module.ModuleInitializer cannot be resolved
+----------
+154. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/module/ddpcommon/Initialize.java (at line 35)
+	public class Initialize implements ModuleInitializer {
+	                                   ^^^^^^^^^^^^^^^^^
+ModuleInitializer cannot be resolved to a type
+----------
+155. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/module/ddpcommon/Initialize.java (at line 39)
+	public void initializeModule() {
+	            ^^^^^^^^^^^^^^^^^^
+The method initializeModule() of type Initialize must override or implement a supertype method
+----------
+156. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/module/ddpcommon/Initialize.java (at line 42)
+	ConfigurationUtilities.copyProperties("uiContextMenuMappings", "gui", "ddp-common",
+	^^^^^^^^^^^^^^^^^^^^^^
+ConfigurationUtilities cannot be resolved
+----------
+----------
+157. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/module/ddpcommon/Shutdown.java (at line 32)
+	import org.kepler.module.ModuleShutdownable;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The import org.kepler.module.ModuleShutdownable cannot be resolved
+----------
+158. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/module/ddpcommon/Shutdown.java (at line 42)
+	public class Shutdown implements ModuleShutdownable
+	                                 ^^^^^^^^^^^^^^^^^^
+ModuleShutdownable cannot be resolved to a type
+----------
+159. ERROR in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/org/kepler/module/ddpcommon/Shutdown.java (at line 46)
+	public void shutdownModule()
+	            ^^^^^^^^^^^^^^^^
+The method shutdownModule() of type Shutdown must override or implement a supertype method
+----------
+----------
+160. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/Case.java (at line 163)
+	Iterator outports = outputPortList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+161. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/Case.java (at line 209)
+	protected void _addEntity(ComponentEntity entity)
+	                          ^^^^^^^^^^^^^^^
+ComponentEntity is a raw type. References to generic type ComponentEntity<T> should be parameterized
+----------
+----------
+162. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/CaseDirector.java (at line 197)
+	Iterator portParameters = container.attributeList(
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+163. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/CaseDirector.java (at line 215)
+	ComponentEntity refinement = container.getEntity(controlValue);
+	^^^^^^^^^^^^^^^
+ComponentEntity is a raw type. References to generic type ComponentEntity<T> should be parameterized
+----------
+164. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/CaseDirector.java (at line 222)
+	for (Iterator inputPorts = container.inputPortList().iterator(); inputPorts
+	     ^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+----------
+165. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositeActor.java (at line 151)
+	Iterator entities = entityList(Refinement.class).iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+----------
+166. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 83)
+	public MultiCompositePort(ComponentEntity container, String name)
+	                          ^^^^^^^^^^^^^^^
+ComponentEntity is a raw type. References to generic type ComponentEntity<T> should be parameterized
+----------
+167. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 111)
+	Iterator entities = container.entityList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+168. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 114)
+	Entity entity = (Entity) entities.next();
+	^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+169. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 114)
+	Entity entity = (Entity) entities.next();
+	                 ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+170. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 157)
+	Iterator entities = container.entityList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+171. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 160)
+	Entity entity = (Entity) entities.next();
+	^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+172. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 160)
+	Entity entity = (Entity) entities.next();
+	                 ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+173. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 205)
+	Iterator entities = container.entityList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+174. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 208)
+	Entity entity = (Entity) entities.next();
+	^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+175. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 208)
+	Entity entity = (Entity) entities.next();
+	                 ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+176. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 251)
+	Iterator entities = container.entityList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+177. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 254)
+	Entity entity = (Entity) entities.next();
+	^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+178. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 254)
+	Entity entity = (Entity) entities.next();
+	                 ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+179. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 298)
+	Iterator entities = container.entityList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+180. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 301)
+	Entity entity = (Entity) entities.next();
+	^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+181. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 301)
+	Entity entity = (Entity) entities.next();
+	                 ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+182. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 337)
+	public void setContainer(Entity container) throws IllegalActionException,
+	                         ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+183. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 347)
+	Iterator entities = model.entityList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+184. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 350)
+	Entity entity = (Entity) entities.next();
+	^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+185. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 350)
+	Entity entity = (Entity) entities.next();
+	                 ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+186. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 402)
+	Iterator entities = container.entityList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+187. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 405)
+	Entity entity = (Entity) entities.next();
+	^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+188. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 405)
+	Entity entity = (Entity) entities.next();
+	                 ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+189. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 446)
+	Iterator entities = container.entityList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+190. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 449)
+	Entity entity = (Entity) entities.next();
+	^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+191. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 449)
+	Entity entity = (Entity) entities.next();
+	                 ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+192. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 492)
+	Iterator entities = container.entityList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+193. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 495)
+	Entity entity = (Entity) entities.next();
+	^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+194. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 495)
+	Entity entity = (Entity) entities.next();
+	                 ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+195. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 544)
+	Iterator entities = container.entityList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+196. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 547)
+	Entity entity = (Entity) entities.next();
+	^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+197. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 547)
+	Entity entity = (Entity) entities.next();
+	                 ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+198. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/MultiCompositePort.java (at line 598)
+	protected void _checkContainer(Entity container)
+	                               ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+----------
+199. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/Refinement.java (at line 166)
+	protected void _checkContainer(Entity container)
+	                               ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+----------
+200. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/RefinementPort.java (at line 83)
+	public RefinementPort(ComponentEntity container, String name)
+	                      ^^^^^^^^^^^^^^^
+ComponentEntity is a raw type. References to generic type ComponentEntity<T> should be parameterized
+----------
+201. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/lib/hoc/RefinementPort.java (at line 413)
+	public void setContainer(Entity container) throws IllegalActionException,
+	                         ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+----------
+202. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/util/DFUtilities.java (at line 69)
+	public static class NamedObjComparator implements Comparator {
+	                                                  ^^^^^^^^^^
+Comparator is a raw type. References to generic type Comparator<T> should be parameterized
+----------
+203. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/util/DFUtilities.java (at line 93)
+	Class class1 = namedObject1.getClass();
+	^^^^^
+Class is a raw type. References to generic type Class<T> should be parameterized
+----------
+204. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/util/DFUtilities.java (at line 94)
+	Class class2 = namedObject2.getClass();
+	^^^^^
+Class is a raw type. References to generic type Class<T> should be parameterized
+----------
+----------
+205. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/actor/util/Time.java (at line 113)
+	public class Time implements Comparable {
+	                             ^^^^^^^^^^
+Comparable is a raw type. References to generic type Comparable<T> should be parameterized
+----------
+----------
+206. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 273)
+	newObject._actorsInfo = new HashMap();
+	                            ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+207. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 274)
+	newObject._actorsToCheckNumberOfFirings = new LinkedList();
+	                                              ^^^^^^^^^^
+LinkedList is a raw type. References to generic type LinkedList<E> should be parameterized
+----------
+208. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 275)
+	newObject._disabledActors = new HashSet();
+	                                ^^^^^^^
+HashSet is a raw type. References to generic type HashSet<E> should be parameterized
+----------
+209. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 315)
+	List toBeFiredActors = new LinkedList();
+	^^^^
+List is a raw type. References to generic type List<E> should be parameterized
+----------
+210. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 315)
+	List toBeFiredActors = new LinkedList();
+	                           ^^^^^^^^^^
+LinkedList is a raw type. References to generic type LinkedList<E> should be parameterized
+----------
+211. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 318)
+	List minimaxActors = new LinkedList();
+	^^^^
+List is a raw type. References to generic type List<E> should be parameterized
+----------
+212. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 318)
+	List minimaxActors = new LinkedList();
+	                         ^^^^^^^^^^
+LinkedList is a raw type. References to generic type LinkedList<E> should be parameterized
+----------
+213. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 321)
+	Iterator actors = ((TypedCompositeActor) getContainer())
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+214. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 337)
+	toBeFiredActors.add(actor);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method add(Object) belongs to the raw type List. References to generic type List<E> should be parameterized
+----------
+215. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 346)
+	minimaxActors.add(actor);
+	^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method add(Object) belongs to the raw type List. References to generic type List<E> should be parameterized
+----------
+216. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 349)
+	minimaxActors.add(actor);
+	^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method add(Object) belongs to the raw type List. References to generic type List<E> should be parameterized
+----------
+217. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 359)
+	Iterator enabledActors = toBeFiredActors.iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+218. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 369)
+	Iterator minimaxActorsIterator = minimaxActors.iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+219. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 438)
+	Iterator outputPorts = ((Actor) getContainer()).outputPortList()
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+220. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 489)
+	Variable requiredFiringsPerIteration = (Variable) ((Entity) actor)
+	                                                    ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+221. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 502)
+	_actorsToCheckNumberOfFirings.add(actor);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method add(Object) belongs to the raw type LinkedList. References to generic type LinkedList<E> should be parameterized
+----------
+222. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 535)
+	_disabledActors.addAll(insideDirector._disabledActors);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method addAll(Collection) belongs to the raw type Set. References to generic type Set<E> should be parameterized
+----------
+223. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 536)
+	_actorsToCheckNumberOfFirings
+        .addAll(insideDirector._actorsToCheckNumberOfFirings);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method addAll(Collection) belongs to the raw type LinkedList. References to generic type LinkedList<E> should be parameterized
+----------
+224. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 538)
+	_actorsInfo.putAll(insideDirector._actorsInfo);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method putAll(Map) belongs to the raw type HashMap. References to generic type HashMap<K,V> should be parameterized
+----------
+225. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 591)
+	Iterator inputPorts = ((Actor) getContainer()).inputPortList()
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+226. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 644)
+	Iterator inputPorts = container.inputPortList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+227. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 673)
+	Iterator actors = _actorsToCheckNumberOfFirings.iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+228. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 801)
+	Iterator insideSinkPorts = port.insideSinkPortList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+229. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 814)
+	_actorsInfo.put(actor, actorInfo);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type HashMap. References to generic type HashMap<K,V> should be parameterized
+----------
+230. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 940)
+	_disabledActors.add(actor);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method add(Object) belongs to the raw type Set. References to generic type Set<E> should be parameterized
+----------
+231. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1015)
+	Iterator outputPorts = actor.outputPortList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+232. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1078)
+	Iterator inputPorts = actor.inputPortList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+233. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1104)
+	Iterator ports = ((Entity) actor).portList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+234. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1104)
+	Iterator ports = ((Entity) actor).portList().iterator();
+	                   ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+235. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1108)
+	Iterator deepConnectedPorts = port.deepConnectedPortList()
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+236. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1126)
+	_actorsInfo.put(connectedActor, actorInfo);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type HashMap. References to generic type HashMap<K,V> should be parameterized
+----------
+237. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1141)
+	_actorsInfo.put(actor, actorInfo);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type HashMap. References to generic type HashMap<K,V> should be parameterized
+----------
+238. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1386)
+	private HashMap _actorsInfo = new HashMap();
+	        ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+239. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1386)
+	private HashMap _actorsInfo = new HashMap();
+	                                  ^^^^^^^
+HashMap is a raw type. References to generic type HashMap<K,V> should be parameterized
+----------
+240. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1391)
+	private LinkedList _actorsToCheckNumberOfFirings = new LinkedList();
+	        ^^^^^^^^^^
+LinkedList is a raw type. References to generic type LinkedList<E> should be parameterized
+----------
+241. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1391)
+	private LinkedList _actorsToCheckNumberOfFirings = new LinkedList();
+	                                                       ^^^^^^^^^^
+LinkedList is a raw type. References to generic type LinkedList<E> should be parameterized
+----------
+242. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1396)
+	private Set _disabledActors = new HashSet();
+	        ^^^
+Set is a raw type. References to generic type Set<E> should be parameterized
+----------
+243. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/domains/ddf/kernel/DDFDirector.java (at line 1396)
+	private Set _disabledActors = new HashSet();
+	                                  ^^^^^^^
+HashSet is a raw type. References to generic type HashSet<E> should be parameterized
+----------
+----------
+244. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/DocAttribute.java (at line 189)
+	List copy = new LinkedList(attributeList());
+	^^^^
+List is a raw type. References to generic type List<E> should be parameterized
+----------
+245. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/DocAttribute.java (at line 189)
+	List copy = new LinkedList(attributeList());
+	            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The constructor LinkedList(Collection) belongs to the raw type LinkedList. References to generic type LinkedList<E> should be parameterized
+----------
+246. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/DocAttribute.java (at line 189)
+	List copy = new LinkedList(attributeList());
+	                ^^^^^^^^^^
+LinkedList is a raw type. References to generic type LinkedList<E> should be parameterized
+----------
+247. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/DocAttribute.java (at line 190)
+	Iterator parameters = copy.iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+248. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/DocAttribute.java (at line 213)
+	|| ((Entity) container).getPort(name) == null) {
+	     ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+249. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/DocAttribute.java (at line 228)
+	|| ((Entity) container).getPort(name) == null) {
+	     ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+250. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/DocAttribute.java (at line 265)
+	Iterator ports = ((Entity) container).portList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+251. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/DocAttribute.java (at line 265)
+	Iterator ports = ((Entity) container).portList().iterator();
+	                   ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+----------
+252. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 104)
+	_portHash.put(name, value);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type Hashtable. References to generic type Hashtable<K,V> should be parameterized
+----------
+253. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 119)
+	_propertyHash.put(name, value);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type Hashtable. References to generic type Hashtable<K,V> should be parameterized
+----------
+254. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 157)
+	Iterator attributes = target.attributeList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+255. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 163)
+	_propertyHash.put(attribute.getName(), "");
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type Hashtable. References to generic type Hashtable<K,V> should be parameterized
+----------
+256. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 168)
+	Iterator ports = ((Entity) target).portList().iterator();
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+257. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 168)
+	Iterator ports = ((Entity) target).portList().iterator();
+	                   ^^^^^^
+Entity is a raw type. References to generic type Entity<T> should be parameterized
+----------
+258. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 171)
+	_portHash.put(p.getName(), "");
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type Hashtable. References to generic type Hashtable<K,V> should be parameterized
+----------
+259. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 198)
+	Iterator attributes = documentationAttribute.attributeList()
+	^^^^^^^^
+Iterator is a raw type. References to generic type Iterator<E> should be parameterized
+----------
+260. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 221)
+	_portHash.put(portName, portDescription);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type Hashtable. References to generic type Hashtable<K,V> should be parameterized
+----------
+261. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 233)
+	_propertyHash.put(propertyName, propertyDescription);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type Hashtable. References to generic type Hashtable<K,V> should be parameterized
+----------
+262. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 278)
+	Enumeration portKeys = _portHash.keys();
+	^^^^^^^^^^^
+Enumeration is a raw type. References to generic type Enumeration<E> should be parameterized
+----------
+263. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 288)
+	Enumeration propKeys = _propertyHash.keys();
+	^^^^^^^^^^^
+Enumeration is a raw type. References to generic type Enumeration<E> should be parameterized
+----------
+264. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 379)
+	Enumeration ports = _portHash.keys();
+	^^^^^^^^^^^
+Enumeration is a raw type. References to generic type Enumeration<E> should be parameterized
+----------
+265. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 388)
+	Enumeration propItt = _propertyHash.keys();
+	^^^^^^^^^^^
+Enumeration is a raw type. References to generic type Enumeration<E> should be parameterized
+----------
+266. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 441)
+	public Hashtable getPortHash() {
+	       ^^^^^^^^^
+Hashtable is a raw type. References to generic type Hashtable<K,V> should be parameterized
+----------
+267. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 458)
+	public Hashtable getPropertyHash() {
+	       ^^^^^^^^^
+Hashtable is a raw type. References to generic type Hashtable<K,V> should be parameterized
+----------
+268. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 568)
+	public void setPortHash(Hashtable portHash) {
+	                        ^^^^^^^^^
+Hashtable is a raw type. References to generic type Hashtable<K,V> should be parameterized
+----------
+269. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 579)
+	public void setPropertyHash(Hashtable propertyHash) {
+	                            ^^^^^^^^^
+Hashtable is a raw type. References to generic type Hashtable<K,V> should be parameterized
+----------
+270. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 614)
+	Enumeration ports = _portHash.keys();
+	^^^^^^^^^^^
+Enumeration is a raw type. References to generic type Enumeration<E> should be parameterized
+----------
+271. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 621)
+	Enumeration propItt = _propertyHash.keys();
+	^^^^^^^^^^^
+Enumeration is a raw type. References to generic type Enumeration<E> should be parameterized
+----------
+272. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 709)
+	_portHash.put(portName, portDescription);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type Hashtable. References to generic type Hashtable<K,V> should be parameterized
+----------
+273. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 728)
+	_propertyHash
+                            .put(propertyName, propertyDescription);
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Type safety: The method put(Object, Object) belongs to the raw type Hashtable. References to generic type Hashtable<K,V> should be parameterized
+----------
+274. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 797)
+	private Hashtable _portHash = new Hashtable();
+	        ^^^^^^^^^
+Hashtable is a raw type. References to generic type Hashtable<K,V> should be parameterized
+----------
+275. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 797)
+	private Hashtable _portHash = new Hashtable();
+	                                  ^^^^^^^^^
+Hashtable is a raw type. References to generic type Hashtable<K,V> should be parameterized
+----------
+276. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 799)
+	private Hashtable _propertyHash = new Hashtable();
+	        ^^^^^^^^^
+Hashtable is a raw type. References to generic type Hashtable<K,V> should be parameterized
+----------
+277. WARNING in /Users/cxh/src/workspaceTriq03JunB/org.kepler.triquetrum.ddp-common/src/ptolemy/vergil/basic/KeplerDocumentationAttribute.java (at line 799)
+	private Hashtable _propertyHash = new Hashtable();
+	                                      ^^^^^^^^^
+Hashtable is a raw type. References to generic type Hashtable<K,V> should be parameterized
+----------
+277 problems (147 errors, 130 warnings)
